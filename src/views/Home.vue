@@ -4,7 +4,7 @@
       <div class="container-fluid">
         <a class="navbar-brand d-flex align-item-center" href="#">
           <div class="logo mr-3"></div>
-          <span class="title">TodoList</span>
+          <span class="title">Vue3.0 TodoList</span>
         </a>
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">

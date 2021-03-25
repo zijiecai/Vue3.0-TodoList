@@ -1,0 +1,11 @@
+/* 遮罩层 */
+.masker {
+    position: fixed;
+    background-color: #000;
+    opacity: 0.4;
+    z-index: 9;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+}
