@@ -1,7 +1,6 @@
 import { createRouter, createWebHashHistory, RouteRecordRaw } from 'vue-router'
 import Home from '../views/Home.vue'
-import Add from '../components/Add.vue'
-import Done from '../components/Done.vue'
+import addAndDone from '../components/AddAndDone.vue'
 import Delete from '../components/Delete.vue'
 
 const routes: Array<RouteRecordRaw> = [
@@ -12,17 +11,12 @@ const routes: Array<RouteRecordRaw> = [
     children: [
       {
         path: '',
-        redirect: { name: 'add' }
+        redirect: { name: 'addAndDone' }
       },
       {
-        path: '/add',
-        name: 'add',
-        component: Add
-      },
-      {
-        path: '/done',
-        name: 'done',
-        component: Done
+        path: '/addAndDone',
+        name: 'addAndDone',
+        component: addAndDone
       },
       {
         path: '/delete',

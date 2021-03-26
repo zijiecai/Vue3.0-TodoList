@@ -11,9 +11,6 @@
             <router-link class="nav-link" to="/add">待办事项</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" to="/done">已完成事项</router-link>
-          </li>
-          <li class="nav-item">
             <router-link class="nav-link" to="/delete">已删除事项</router-link>
           </li>
         </ul>
